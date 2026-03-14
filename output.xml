@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.0 on win32)" generated="2026-03-14T16:08:23.652471" rpa="false" schemaversion="5">
+<suite id="s1" name="Check Box Radio" source="C:\Users\vivek\PycharmProjects\ROBO\Casual_Practice\VIVEK_ROBO\Check_Box_Radio.robot">
+<test id="s1-t1" name="Rahul_Shetty" line="13">
+<kw name="Check_Box_Radio_Button">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-14T16:08:23.945587" level="INFO">Opening browser 'Chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-14T16:08:23.945341" elapsed="5.018326"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-14T16:08:28.964917" elapsed="0.321552"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>3 seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-03-14T16:08:29.287121" elapsed="0.004386"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2026-03-14T16:08:29.293519" level="INFO">Selecting checkbox 'xpath://*[@id="checkBoxOption2"]'.</msg>
+<arg>${Check_Click_Element}</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-14T16:08:29.292221" elapsed="1.018918"/>
+</kw>
+<status status="PASS" start="2026-03-14T16:08:23.944694" elapsed="6.366848"/>
+</kw>
+<status status="PASS" start="2026-03-14T16:08:23.943817" elapsed="6.368680"/>
+</test>
+<doc>This is Check Box and Radio Button Click</doc>
+<status status="PASS" start="2026-03-14T16:08:23.654161" elapsed="6.660787"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Check Box Radio" id="s1" pass="1" fail="0" skip="0">Check Box Radio</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
